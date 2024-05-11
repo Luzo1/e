@@ -1,0 +1,14 @@
+ping google.com
+
+whois google.com
+
+
+
+#search operators
+
+inurl "vartak"
+allurl "vartak college"
+blogurl "how to be happy"
+site "apple.com"
+intitle "narendra"
+allintitle "narendra"

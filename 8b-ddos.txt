@@ -1,0 +1,9 @@
+ipconfig
+
+ping -t -l 65500 <target_ip>
+
+
+#Kali Linux
+ifconfig
+
+hping3 -V -c 1000 -d 100 127.0.0.1

